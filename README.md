@@ -3,7 +3,9 @@
 
 ## Overview
 
-This repository is contains my work as a research intern at the University of Oslo, in 2023, oriented towards the study of stocastic volatility models via high-frequancy financial data. The objective is to explore the methodologies and implications of each volatility models, for a various range of assets, in order to study the variability of the prices in a relevant way.
+This repository is contains my work as a research intern at the University of Oslo, in 2023, oriented towards the study of stochastic volatility models with high-frequancy financial data. The objective is to explore the methodologies and implications of volatility models, for a various range of assets, in order to model prices in a relevant way.
+
+In particular, the focus is on the model of local volatility, or Markovianity, assuming that the volatility coefficient can be written as a function of the price. This hypothesis is evaluated by means of a statistical test, designed by J. Jacod and Y. Aït-Sahalia, that takes as entry the price history.
 
 ## Repository Contents
 
