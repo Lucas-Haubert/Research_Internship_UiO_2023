@@ -5,12 +5,22 @@
 
 This repository is contains my work as a research intern at the University of Oslo (UiO), in 2023, oriented towards the study of stochastic volatility models with high-frequancy financial data. The objective is to explore the methodologies and implications of volatility models, for a various range of assets, in order to model prices in a relevant way.
 
-A simple formulation to describe the price process $\(S_t\)_t$ is the model of continuous semi-martingale:
+A simple formulation to describe the price process $\(S_t\)$ is the model of continuous semi-martingale:
 
 $$
 {\large
 \begin{equation}
-    S_t = a_t S_t \, dt + \sigma_t S_t \, dW_t
+    dS_t = a_t S_t dt + \sigma_t S_t dW_t
+\end{equation}
+}
+$$
+
+To complete this first step, Jean Jacod and Yacine Aït-Sahalia introduce the notion of jump process $\(J_t\)$ added to the log-price $X_t = \log S_t$, so that we have:
+
+$$
+{\large
+\begin{equation}
+    X_t = X_0 + \int_{0}^t a_s ds + \int_{0}^t \sigma_s dW_s + J_t
 \end{equation}
 }
 $$
