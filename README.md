@@ -47,7 +47,7 @@ $$
 }
 $$
 
-Given the previous modeling and the availability of high frequency financial data (HFFD's), the purpose of the internship was to implement a statistical test, designed by Jean Jacod and Yacine Aït-Sahalia, that allows to confirm or reject the hypothesis. In particular, given a time series of the historical prices $S_1, ..., S_n$, we compute a statistic $T_n$ that converges to a normal law under the local volatility hypothesis $(\mathcal{H})$, and diverges otherwise $(\mathcal{H'})$, i.e.: 
+Given the previous modeling and the availability of high frequency financial data (HFFD's), the purpose of the internship was to implement a statistical test, designed by Jean Jacod and Yacine Aït-Sahalia, that allows to confirm or reject the hypothesis. In particular, given a time series of the historical prices $S_1, ..., S_n$, we compute a statistic $T_n$ that converges to a normal law under the local volatility hypothesis $(\mathcal{H})$, and diverges otherwise $(\mathcal{H'})$. In particular: 
 
 $$
 {\large
