@@ -30,7 +30,7 @@ Finally, in the context of high frequency financial data, it is common to measur
 $$
 {\large
 \begin{equation}
-    Y_{t_k} = X_{t_k} + \nu_{t_k}
+    Y_{t_k} = X_{t_k} + \eta_{t_k}
 \end{equation}
 }
 $$
