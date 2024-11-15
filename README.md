@@ -54,7 +54,7 @@ $$
 \begin{equation}
     \begin{aligned}
         &(\mathcal{H}) \quad T_n \xrightarrow{\mathscr{L}} N(0,1) \\
-        &(\mathcal{H'}) \quad T_n \xrightarrow{\mathbb{P}} +\infty
+        &(\mathcal{H'}) \quad T_n \text{diverges}
     \end{aligned}
 \end{equation}
 }
