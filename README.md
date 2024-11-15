@@ -7,15 +7,12 @@ This repository is contains my work as a research intern at the University of Os
 
 ## Repository Contents
 
-- `Report.pdf`: A detailed report of my work and findings.
-- `init_data.py` : Acquisition of the raw high-frequency financial data (HFFD).
-- `clean_data.py` : Pre-process the HFFD.
-- `convert.py` : Time conversions to plot the prices.
+- `data/` : Raw and pre-processed high-frequency financial data (HFFD).
+- `utils/` : Utilitary files (data loaders, conversion, plots).
 - `quadratic_vars_estim.py` : First step of the variational analysis of stochastic volatility.
 - `quadratic_vars_estim_bis.py` : Second step of the variational analysis of stochastic volatility.
-- `plot_prices.py` : Display prices of the assets.
 - `markovianity_test.py` : Implementation of the statistical test of local volatility hypothesis.
-- `[asset_name]Data.csv` : Pre-processed HFFD.
+- `Report.pdf`: A detailed report of my work and findings.
 
 ## Acknowledgements
 
