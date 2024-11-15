@@ -25,6 +25,16 @@ $$
 }
 $$
 
+Finally, in the context of high frequency financial data, it is common to measure a corrupted value $Y_{t_k}$ instead of $X_{t_k}$, due to the presence of micro-structure noise. This is given by:
+
+$$
+{\large
+\begin{equation}
+    Y_{t_k} = X_{t_k} + \epsilon_{t_k}
+\end{equation}
+}
+$$
+
 ## Repository Contents
 
 - `data/` : Raw and pre-processed high-frequency financial data (HFFD).
