@@ -1,7 +1,7 @@
 
 # Research Internship in Stochastics and Statistics, University of Oslo, 2023
 
-## Overview
+## Context
 
 This repository is contains my work as a research intern at the University of Oslo (UiO), in 2023, oriented towards the study of stochastic volatility models with high-frequancy financial data. The objective is to explore the methodologies and implications of volatility models, for a various range of assets, in order to model prices in a relevant way.
 
@@ -31,6 +31,18 @@ $$
 {\large
 \begin{equation}
     Y_{t_k} = X_{t_k} + \eta_{t_k}
+\end{equation}
+}
+$$
+
+## Problem
+
+Within this context, it may be needed to model the volatility coefficient $\sigma$, as it gives relevant information about the variability of the prices. Several models, from classical to stochastic, exist to model this coefficient. Here, the focus is on the hypothesis of local volatility, which assumes that the volatility can be written as a function of the price, i.e. it exists a function a on $\mathbb{R}$ such that:
+
+$$
+{\large
+\begin{equation}
+    \sigma = a(X)
 \end{equation}
 }
 $$
