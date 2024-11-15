@@ -60,6 +60,8 @@ $$
 }
 $$
 
+Details, sources and results are given in the attached internship report.
+
 ## Repository Contents
 
 - `data/` : Raw and pre-processed high-frequency financial data (HFFD).
