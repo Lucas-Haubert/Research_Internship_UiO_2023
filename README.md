@@ -15,7 +15,7 @@ $$
 }
 $$
 
-To complete this first step, Jean Jacod and Yacine Aït-Sahalia introduce the notion of jump process $\(J_t\)$ added to the log-price $X_t = \log S_t$, so that we have:
+To complete this first step, we introduce the notion of jump process $\(J_t\)$ added to the log-price $X_t = \log S_t$, so that we have:
 
 $$
 {\large
